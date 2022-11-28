@@ -1,0 +1,70 @@
+#header{
+    background-color: green;
+    height: 5vw;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+    color: ivory;
+    text-transform:unset;
+    font-weight: normal;
+    padding-top: 1.5vw;
+    font-size: 250%;
+}
+
+body{
+    margin: 0;
+    background-color: white;
+}
+
+.info{
+    display:grid;
+    grid-template-rows: auto, auto, auto, auto;
+    width: 50vw;
+    margin: auto;
+    background-color: whitesmoke;
+    
+}
+
+.info>div{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+
+
+.address{
+    display: grid;
+    grid-template-rows: auto, auto, auto, auto;
+    width: 50vw;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+.card{
+    display: grid;
+    grid-template-rows: auto, auto, auto, auto;
+    width: 50vw;
+    margin: auto;
+    background-color:whitesmoke;
+}
+
+.submit{
+    display: grid;
+    grid-template-rows: auto;
+    height: 18vw;
+    width: 50vw;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+fieldset{
+    border: none;
+    
+}
+
+.submitbutton{
+    width: 100px;
+    height: 25px;
+}

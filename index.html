@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shipping Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="functions.js"></script>
+</head>
+
+<body>
+   <header id="header">
+        <h1>Shipping Form</h1>
+   </header>
+
+   <form action="">
+     <div class="info">
+          <fieldset>
+               <div> 
+                    <h4>Full Name</h4>
+                    <input type="text">  <input type="text"><br>
+                    <label for="">First Name</label> <label style="padding-left: 105px;" for="">Last Name</label>
+               </div>
+               <div>
+                    <h4>Phone Number</h4>
+                    <input type="tel" style="width: 75px;"> <input type="tel" style="width: 150px;"> <br>
+               </div>
+               <div>
+                    <h4>Email</h4>
+                    <input type="email" style="width: 250px;"> 
+               </div>
+     </fieldset>
+         
+        
+     </div>
+
+   <div class="address">
+     <fieldset>
+          <div style="padding-top: 15px;">
+               <h4>Address</h4>
+               <input type="text" style="width: 250px;"> <br>
+               <label for="">Street Address</label>
+          </div>
+          <div style="margin-top: 20px;">
+               <input type="text"> <input type="text"> <br>
+               <label for="">City</label> <label style="padding-left: 150px;" for="">State</label>
+          </div>
+          <div style="margin-top: 20px;">
+               <input type="text"> <input type="text"> <br>
+               <label for="">Zip Code</label> <label style="padding-left: 118px;" for="">Country</label>
+          </div>
+     </fieldset>
+   </div>
+
+   <div class="card">
+     <fieldset>
+          <div>
+               <h4>Card Info</h4>
+               <input  style="width: 250px;" type="text"> <br>
+               <label for="">Cardholder Name</label>
+          </div>
+          <div style="margin-top: 20px;">
+               <input maxlength="16" style="width: 300px;" type="text"> <br>
+               <label for="">Card Number</label>
+          </div>
+          <div style="margin-top: 20px;">
+               <input type="month"> <input maxlength="3" style="width: 50px;" type="text"> <br>
+               <label for="">Exp Date</label> <label style="padding-left: 85px;" for="">CVV</label>
+          </div>
+     </fieldset>
+   </div>
+   <div class="submit">  
+        <fieldset>
+          <h4>Submit Form</h4>
+          <input class="submitbutton" type="submit"  onclick="submit()"> <br>
+
+        </fieldset>
+        
+        
+
+   </div>
+
+   </form>
+   
+ 
+</body>
+
+
+
+
+</html>
